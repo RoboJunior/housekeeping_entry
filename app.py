@@ -196,5 +196,5 @@ def exit_result():
     return render_template('/exit_result.html')
 
 if __name__ == '__main__':
-    app.run(host='127.0.0.1', port=8001)
+    app.run()
 
